@@ -1,7 +1,7 @@
 ## CS143
 Complete a compiler of cool language.
 ### program assignment
-- PA2(63/63)  lexer
-- PA3(70/70)  parser
-- PA4 //to do
-- PA5 //to do
+- PA2 lexer  /done
+- PA3 parser /done
+- PA4 semant analyse /done
+- PA5 code generation //to do
