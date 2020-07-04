@@ -47,6 +47,7 @@ Complete a compiler of cool language.
   - 在cool的手册里有写，这里不多赘述
 #### bison
   - bison采用了自底向上的规约方法来分析
+  
   - 在进行语法分析的时候会对语法进行简单的检查，对不合规矩的语法抛出错误
 
 ### semant
