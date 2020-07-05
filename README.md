@@ -34,7 +34,7 @@ Complete a compiler of cool language.
     - 系统关键字
     
   - 准确性:在遇到unexpected的情况时，可以处理，不会进行错误的匹配
-代码已上传至PA2的文件夹.
+  - 代码已上传至PA2的文件夹.
 ### parser
   - 语法分析，将词法分析器的结果构建成AST
   
@@ -47,6 +47,7 @@ Complete a compiler of cool language.
   - 在cool的手册里有写，这里不多赘述
 #### bison
   - bison采用了自底向上的规约方法来分析
+- 代码已上传至PA3
 ### semant
   - 语义分析，对AST进行一些检查，对不合规范的代码抛出异常
 #### class
@@ -84,6 +85,7 @@ Complete a compiler of cool language.
     - 类型是否是self，参数类型不可以是self
     - 是否多次重复定义参数。
   
+- 代码已上传至PA4
 ### code generation
   - 生成MIPS汇编代码
   - 由于是抄的代码，当时状态也很差，没有很好的思考
@@ -101,3 +103,4 @@ Complete a compiler of cool language.
     - 保存caller的栈桢
     - 保存caller的寄存器
     - 为函数所需要的临时变量开辟空间
+- 代码已上传至PA5
